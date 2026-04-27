@@ -1,14 +1,5 @@
-install:
-	pip install --upgrade pip
-	pip install -r requirements.txt
-
-format:
-	black train.py validate.py
-
 train:
-	python train.py
+	python src/train.py
 
 validate:
-	python validate.py
-
-ci: install format train validate
+	python src/validate.py
