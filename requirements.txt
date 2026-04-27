@@ -1,7 +1,5 @@
+mlflow
+joblib
+scikit-learn
 pandas
 numpy
-scikit-learn
-mlflow
-matplotlib
-joblib
-black
